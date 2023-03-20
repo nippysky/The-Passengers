@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { AiOutlineMenu } from "react-icons/ai";
 import { IoClose } from "react-icons/io5";
+import { useRouter } from "next/router";
 
 const MENULINKS = [
   {
@@ -32,6 +33,7 @@ const MENULINKS = [
 ];
 
 export default function NavHeader() {
+  const { asPath } = useRouter();
   const [mobile, setMobile] = useState(false);
 
   return (
@@ -52,7 +54,11 @@ export default function NavHeader() {
       {/* Menu Links */}
       <nav className="w-[70%] justify-end items-center hidden lg:flex">
         {MENULINKS.map((link) => (
-          <div className="text-passengerWhite mx-3 text-[0.9rem] font-medium tracking-wider">
+          <div
+            className={`${
+              asPath === link.path ? "text-passengerRed" : "text-passengerWhite"
+            } mx-3 text-[0.9rem] font-medium tracking-wider`}
+          >
             <Link href={link.path}>{link.name}</Link>
           </div>
         ))}

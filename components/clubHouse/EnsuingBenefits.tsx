@@ -38,7 +38,7 @@ export default function EnsuingBenefits() {
       </div>
 
       {/* Grid Layout */}
-      <div className="w-full grid lg:grid-cols-2 md:grid-cols-2 gap-10 mt-14">
+      <div className="w-full grid xl:grid-cols-2 md:grid-cols-2 gap-10 mt-14">
         {BENEFITS.map((benefit, index) => (
           <div key={index} className="p-10 bg-passengerBox rounded-xl">
             <h5 className="text-passengerYellow font-semibold text-[1.1rem] tracking-wider">

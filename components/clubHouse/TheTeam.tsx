@@ -38,7 +38,7 @@ export default function TheTeam() {
       </div>
 
       {/* Render Team Members */}
-      <div className="w-full grid lg:grid-cols-4 md:grid-cols-2 gap-20 my-14">
+      <div className="w-full grid xl:grid-cols-4 md:grid-cols-2 gap-20 my-14">
         {TEAM.map((member, index) => (
           <div key={index} className="flex flex-col items-center">
             <Image
