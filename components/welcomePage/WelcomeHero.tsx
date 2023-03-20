@@ -13,7 +13,7 @@ export default function WelcomeHero() {
 
       {/* Hero Content */}
       <div className="justify-center items-center mb-40 text-center lg:px-60 px-5">
-        <h1 className="font-bold text-passengerRed text-[2.5rem] text-center">
+        <h1 className="font-bold text-passengerRed lg:text-[2.5rem] text-[2rem] text-center">
           WELCOME ONBOARD
         </h1>
 

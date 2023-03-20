@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import JoinTheClub from "@/components/welcomePage/JoinTheClub";
 import PriceAndDistribution from "@/components/welcomePage/PriceAndDistribution";
 import WelcomeHero from "@/components/welcomePage/WelcomeHero";
@@ -22,6 +23,10 @@ export default function Welcome() {
       <JoinTheClub />
       <PriceAndDistribution />
       <WelcomePassengers />
+
+      <footer className="px-5 lg:px-10">
+        <Footer />
+      </footer>
     </>
   );
 }

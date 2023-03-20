@@ -29,12 +29,12 @@ export default function JoinTheClub() {
 
       {/* JOIN THE CLUB */}
       <div className="mt-20">
-        <h1 className="font-bold text-passengerRed text-[2.5rem]">
+        <h1 className="font-bold text-passengerRed lg:text-[2.5rem] text-[2rem] text-center lg:text-left">
           JOIN THE CLUB
         </h1>
 
-        <div className="w-full flex gap-20 mt-10 justify-between">
-          <div className="w-1/2">
+        <div className="w-full flex flex-col lg:flex-row gap-20 mt-10 justify-between">
+          <div className="lg:w-1/2 w-full flex lg:justify-start justify-center">
             <Image
               src={"/welcomePage/Welcome_Boss.svg"}
               alt={"Passenger Bossman"}
@@ -44,7 +44,7 @@ export default function JoinTheClub() {
             />
           </div>
 
-          <div className="w-1/2 ">
+          <div className="lg:w-1/2 w-full text-center lg:text-left">
             <p className="text-passengerWhite font-normal mt-5">
               The club offers one way to membership with two paths, reality path
               and island path. We understand that not everyone is interested in
@@ -75,7 +75,7 @@ export default function JoinTheClub() {
               When you buy a PSC limited passenger, you become a member with the
               ability to gain membership benefits, full rights and ownership
               over your passenger for commercial use, as well as the chance to
-              experience the island state in the future
+              experience the island state in the future.
             </p>
           </div>
         </div>
