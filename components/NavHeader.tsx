@@ -53,8 +53,9 @@ export default function NavHeader() {
 
       {/* Menu Links */}
       <nav className="w-[70%] justify-end items-center hidden lg:flex">
-        {MENULINKS.map((link) => (
+        {MENULINKS.map((link, index) => (
           <div
+            key={index}
             className={`${
               asPath === link.path ? "text-passengerRed" : "text-passengerWhite"
             } mx-3 text-[0.9rem] font-medium tracking-wider`}
@@ -84,8 +85,11 @@ export default function NavHeader() {
           </div>
 
           <nav className="flex flex-col gap-10 mt-10 text-white">
-            {MENULINKS.map((link) => (
-              <div className="text-passengerWhite text-[0.9rem] font-medium tracking-wider">
+            {MENULINKS.map((link, index) => (
+              <div
+                key={index}
+                className="text-passengerWhite text-[0.9rem] font-medium tracking-wider"
+              >
                 <Link href={link.path}>{link.name}</Link>
               </div>
             ))}
