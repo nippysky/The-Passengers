@@ -7,28 +7,28 @@ const FOLLOWLINK = [
   {
     icon: <FaDiscord size={20} />,
     title: "Discord",
-    desc: "Ask question and engage",
+    desc: "Ask question and engage with other passengers",
     link: "",
   },
 
   {
     icon: <FaTwitter size={20} />,
     title: "Twitter",
-    desc: "Ask question and engage",
+    desc: "Follow the latest news from the passenger’s blog",
     link: "",
   },
 
   {
     icon: <FaYoutube size={20} />,
     title: "Youtube",
-    desc: "Ask question and engage",
+    desc: "Listen in on community shared experiences and journies",
     link: "",
   },
 
   {
     icon: <FiInstagram size={20} />,
     title: "Instagram",
-    desc: "Ask question and engage",
+    desc: "Keep in touch with our latest collection",
     link: "",
   },
 ];
@@ -49,9 +49,11 @@ export default function JoinTheCommunity() {
       <div className="w-full grid xl:grid-cols-4 md:grid-cols-2 gap-10 mt-14">
         {FOLLOWLINK.map((follow, index) => (
           <Link key={index} href={follow.link}>
-            <div className="p-5 bg-passengerBoxGray rounded-xl">
+            <div className="p-5 bg-passengerBoxGray hover:bg-passengerDarkRed hover:text-passengerWhite rounded-xl">
               <div className="flex gap-5">
-                <div className="text-passengerRed">{follow.icon}</div>
+                <div className="text-passengerRed hover:text-passengerYellow">
+                  {follow.icon}
+                </div>
                 <p className="font-semibold">{follow.title}</p>
               </div>
 

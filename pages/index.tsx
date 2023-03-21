@@ -21,7 +21,7 @@ export default function Home() {
           backgroundImage: "url('/brand/Passengers_LandingGIF.gif')",
         }}
       >
-        <div className=" p-10 rounded-2xl bg-passengerRed lg:w-[45%] md:w-[60%] w-[85%]">
+        <div className=" p-10 rounded-2xl bg-passengerRed lg:w-[40%] md:w-[60%] w-[85%]">
           <p className="text-passengerWhite font-semibold tracking-wider">
             It’s More Than Just A Merch. It Is The Gateway To The Lifestyle. Hop
             in and see where the train goes

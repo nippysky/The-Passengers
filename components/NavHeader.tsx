@@ -8,7 +8,7 @@ import { useRouter } from "next/router";
 const MENULINKS = [
   {
     name: "Buy",
-    path: "",
+    path: "/welcome/#buy",
   },
 
   {
@@ -59,7 +59,9 @@ export default function NavHeader() {
               asPath === link.path ? "text-passengerRed" : "text-passengerWhite"
             } mx-3 text-[0.9rem] font-medium tracking-wider`}
           >
-            <Link href={link.path}>{link.name}</Link>
+            <Link scroll={false} href={link.path}>
+              {link.name}
+            </Link>
           </div>
         ))}
       </nav>

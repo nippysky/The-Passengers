@@ -4,7 +4,7 @@ import React from "react";
 
 export default function PriceAndDistribution() {
   return (
-    <section className="w-full px-5 lg:px-10 py-5 relative mt-10">
+    <section id="buy" className="w-full px-5 lg:px-10 py-5 relative mt-10">
       {/* Header */}
       <h1 className="font-bold text-passengerRed lg:text-[2.5rem] text-[2rem] text-center">
         PRICING & DISTRIBUTION
