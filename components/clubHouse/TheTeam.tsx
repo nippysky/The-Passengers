@@ -4,17 +4,17 @@ import React from "react";
 const TEAM = [
   {
     name: "Temujin Khan",
-    desc: "“We want to build a world, ridden by its people. A perfect world  is an illusion, only those who have accepted limitations , simply comes to this conclusion. However, those that seek change or cry out for something different can never accept this reality!. for many things we see today, men thought them to be  impossible and just mere imaginations.”",
+    desc: "“A perfect world  is an illusion, only those who have accepted limitations , simply comes to this conclusion. However, those that seek change or cry out for something different can never accept this reality!. for many things we see today, men thought them to be  impossible and just mere imaginations.”",
   },
 
   {
     name: "Charles Funas",
-    desc: "“So I call out to You, You with the same vision as me.  Let us build this world, a “Transcended -Earth !“.Passengers utopia in a new digital world but First things first, there would be some rules to establish and passengers for the journey to building a transcended world from its Adam.”",
+    desc: "“I call out to You, You with the same vision as me.  Let us build this world, a “Transcended -Earth !“.Passengers utopia in a new digital world but First things first, there would be some rules to establish and passengers for the journey to building a transcended world from its Adam.”",
   },
 
   {
     name: "NIPPY The Creator",
-    desc: "“When you focus too much on the outcome, you forget the steps taken to achieve”",
+    desc: "“When you focus too much on the outcome, you forget the steps taken to achieve it”",
   },
 
   {
@@ -25,14 +25,14 @@ const TEAM = [
 
 export default function TheTeam() {
   return (
-    <section className="relative mt-20">
+    <section className="relative mt-20 lg:px-28">
       {/* Title */}
       <div className=" lg:items-end items-center">
-        <h1 className="font-bold text-passengerRed lg:text-[2.5rem] text-[2rem] text-center lg:text-right">
+        <h1 className="font-black text-passengerRed lg:text-[2rem] text-[2rem] text-center lg:text-right italic">
           THE TEAM
         </h1>
 
-        <p className="text-passengerWhite font-normal mt-5 text-center lg:text-right italic">
+        <p className="text-passengerWhite font-normal mt-5 text-center lg:text-right italic text-[0.85rem]">
           Veras identitates nostras ostendemus cum Octavus vector evigilaverit
         </p>
       </div>
@@ -42,7 +42,6 @@ export default function TheTeam() {
         {TEAM.map((member, index) => (
           <div key={index} className="flex flex-col items-center">
             <Image
-              className="rounded-xl"
               src={"/clubHouse/ClubHouse_Team.svg"}
               alt={"Team Members"}
               width={300}
@@ -51,11 +50,11 @@ export default function TheTeam() {
             />
 
             <div className="mt-5">
-              <h5 className="text-passengerYellow font-semibold text-[1.1rem] tracking-wider text-center">
+              <h5 className="text-passengerRed font-bold text-[0.85rem] uppercase tracking-wider text-center italic">
                 {member.name}
               </h5>
 
-              <p className="text-passengerWhite font-normal text-center text-[0.85rem]">
+              <p className="text-passengerWhite font-normal text-center text-[0.75rem] mt-2">
                 {member.desc}
               </p>
             </div>

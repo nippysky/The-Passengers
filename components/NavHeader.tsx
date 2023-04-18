@@ -4,6 +4,9 @@ import Link from "next/link";
 import { AiOutlineMenu } from "react-icons/ai";
 import { IoClose } from "react-icons/io5";
 import { useRouter } from "next/router";
+import { FiInstagram } from "react-icons/fi";
+import { FaDiscord, FaTwitter } from "react-icons/fa";
+import { SiOpensea } from "react-icons/si";
 
 const MENULINKS = [
   {
@@ -12,13 +15,13 @@ const MENULINKS = [
   },
 
   {
-    name: "Club House",
-    path: "/club-house",
+    name: "Road Map",
+    path: "/welcome/#roadmap",
   },
 
   {
-    name: "The Island",
-    path: "/the-island",
+    name: "Prolougue",
+    path: "/story-line",
   },
 
   {
@@ -30,6 +33,33 @@ const MENULINKS = [
     name: "Community",
     path: "/community",
   },
+
+  {
+    name: "Phase II",
+    path: "/phase-II",
+  },
+];
+
+const SOCIALICONS = [
+  {
+    icon: <FiInstagram size={15} />,
+    link: "",
+  },
+
+  {
+    icon: <FaTwitter size={15} />,
+    link: "",
+  },
+
+  {
+    icon: <FaDiscord size={15} />,
+    link: "",
+  },
+
+  {
+    icon: <SiOpensea size={15} />,
+    link: "",
+  },
 ];
 
 export default function NavHeader() {
@@ -39,33 +69,45 @@ export default function NavHeader() {
   return (
     <header className="w-full flex flex-row justify-between items-center">
       {/* Logo */}
-      <div className="w-[30%] flex justify-start">
+      <div className="w-[70%] flex justify-start">
         <Link href={"/"}>
           <Image
             src={"/brand/Passengers_Logo.svg"}
             alt={"Passengers Logo"}
-            width={200}
+            width={250}
             height={50}
             priority
           />
         </Link>
+
+        <nav className="items-center hidden lg:flex px-5">
+          {MENULINKS.map((link, index) => (
+            <div
+              key={index}
+              className={`${
+                asPath === link.path
+                  ? "text-passengerRed"
+                  : "text-passengerWhite"
+              } mx-3 text-[0.55rem] uppercase italic font-medium tracking-wider`}
+            >
+              <Link scroll={false} href={link.path}>
+                {link.name}
+              </Link>
+            </div>
+          ))}
+        </nav>
       </div>
 
       {/* Menu Links */}
-      <nav className="w-[70%] justify-end items-center hidden lg:flex">
-        {MENULINKS.map((link, index) => (
-          <div
-            key={index}
-            className={`${
-              asPath === link.path ? "text-passengerRed" : "text-passengerWhite"
-            } mx-3 text-[0.9rem] font-medium tracking-wider`}
-          >
-            <Link scroll={false} href={link.path}>
-              {link.name}
-            </Link>
-          </div>
+
+      {/* Social Icons */}
+      <div className="flex lg:justify-end justify-center items-center">
+        {SOCIALICONS.map((link, index) => (
+          <Link key={index} href={link.link}>
+            <div className="text-passengerWhite ml-10">{link.icon}</div>
+          </Link>
         ))}
-      </nav>
+      </div>
 
       {/* Mobile Hambrger Icon */}
       <div

@@ -28,7 +28,6 @@ export default function Community() {
         {/* Cover Image */}
         <div className="w-full mt-5 lg:px-10 px-5 py-2">
           <Image
-            className=" rounded-2xl"
             src={"/brand/PassengersCommunity.svg"}
             alt={"The island Cover"}
             width={2500}

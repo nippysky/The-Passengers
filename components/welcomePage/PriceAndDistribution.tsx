@@ -4,14 +4,14 @@ import React from "react";
 
 export default function PriceAndDistribution() {
   return (
-    <section id="buy" className="w-full px-5 lg:px-10 py-5 relative mt-10">
+    <section id="buy" className="w-full px-5 lg:px-40 py-5 relative mt-10">
       {/* Header */}
-      <h1 className="font-bold text-passengerRed lg:text-[2.5rem] text-[2rem] text-center">
+      <h1 className="font-black italic text-passengerRed lg:text-[2rem] text-[1.85rem] text-center">
         PRICING & DISTRIBUTION
       </h1>
 
       <div className="mt-5">
-        <h4 className="font-semibold italic text-passengerWhite text-2xl text-center lg:text-left">
+        <h4 className="font-black italic uppercase text-passengerWhite text-[1rem] text-center lg:text-left">
           Limited Membership Hoodie
         </h4>
 
@@ -26,7 +26,7 @@ export default function PriceAndDistribution() {
             />
           </div>
 
-          <div className="lg:w-1/2 w-full text-center lg:text-left">
+          <div className="lg:w-1/2 w-full text-center lg:text-left text-[0.85rem]">
             <p className="text-passengerWhite font-normal">
               The PSC membership hoodies are 10,000 in total and come in two
               colors: black and white. All membership hoodies are assigned free

@@ -3,6 +3,7 @@ import JoinTheClub from "@/components/welcomePage/JoinTheClub";
 import PriceAndDistribution from "@/components/welcomePage/PriceAndDistribution";
 import WelcomeHero from "@/components/welcomePage/WelcomeHero";
 import WelcomePassengers from "@/components/welcomePage/WelcomePassengers";
+import WelcomeToThePassengersClub from "@/components/welcomePage/WelcomeToThePassengersClub";
 import Head from "next/head";
 import React from "react";
 
@@ -24,7 +25,11 @@ export default function Welcome() {
       <PriceAndDistribution />
       <WelcomePassengers />
 
-      <footer className="px-5 lg:px-10">
+      <section className="lg:mx-10">
+        <WelcomeToThePassengersClub />
+      </section>
+
+      <footer>
         <Footer />
       </footer>
     </>

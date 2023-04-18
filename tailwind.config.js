@@ -14,7 +14,7 @@ module.exports = {
         passengerRed: "#D40000",
         passengerDarkRed: "#A10000",
         passengerBlack: "#000000",
-        passengerBox: "#090808",
+        passengerBox: "#040404",
         passengerYellow: "#FFE600",
         passengerWhite: "#ffffff",
         passengerCommunityBG: "#FEF6EB",

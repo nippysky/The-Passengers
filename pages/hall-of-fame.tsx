@@ -24,8 +24,8 @@ export default function HallOfFame() {
 
         <WelcomeHOF />
         <PrestigeSlots />
-        <Footer />
       </section>
+      <Footer />
     </>
   );
 }

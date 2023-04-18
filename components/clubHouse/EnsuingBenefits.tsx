@@ -25,14 +25,14 @@ const BENEFITS = [
 
 export default function EnsuingBenefits() {
   return (
-    <section className="relative mt-20">
+    <section className="relative mt-20 lg:px-28">
       {/* Title */}
       <div className=" lg:items-end items-center">
-        <h1 className="font-bold text-passengerRed lg:text-[2.5rem] text-[2rem] text-center lg:text-right">
+        <h1 className="font-black text-passengerRed lg:text-[2.5rem] text-[2rem] text-center lg:text-right italic">
           ENSUING BENEFITS
         </h1>
 
-        <p className="text-passengerWhite font-normal mt-5 text-center lg:text-right italic">
+        <p className="text-passengerWhite font-normal mt-5 text-center lg:text-right italic text-[0.85rem]">
           Most benefits are trigged by clubhouse road map activition
         </p>
       </div>
@@ -40,79 +40,81 @@ export default function EnsuingBenefits() {
       {/* Grid Layout */}
       <div className="w-full grid xl:grid-cols-2 md:grid-cols-2 gap-10 mt-14">
         {BENEFITS.map((benefit, index) => (
-          <div key={index} className="p-10 bg-passengerBox rounded-xl">
-            <h5 className="text-passengerYellow font-semibold text-[1.1rem] tracking-wider">
+          <div key={index} className="p-10 bg-passengerBox">
+            <h5 className="text-passengerRed font-black text-[1rem] tracking-wider italic">
               {benefit.title}
             </h5>
 
-            <p className="mt-5 text-passengerWhite font-normal text-[0.9rem]">
+            <p className="mt-5 text-passengerWhite font-normal text-[0.85rem]">
               {benefit.desc}
             </p>
           </div>
         ))}
       </div>
 
-      {/* Clubhouse Store */}
-      <div className="my-20">
-        <h5 className="text-passengerYellow font-semibold text-[1.1rem] tracking-wider text-center lg:text-left">
-          THE CLUBHOUSE STORE
-        </h5>
+      <div className="my-20 flex flex-row justify-between gap-20">
+        {/* Clubhouse Store */}
+        <div>
+          <h5 className="text-passengerRed font-black text-[2rem] tracking-wider text-center lg:text-left italic">
+            THE CLUBHOUSE STORE
+          </h5>
 
-        <p className="mt-5 text-passengerWhite font-normal text-center lg:text-left">
-          Nightlife in the clubhouse is so much fun once you blend in. Members
-          have the ability to unlock the clubhouse store to gain access to the
-          Creme de la Creme, Clubhouse deluxe merchandise includes apparel and
-          other goodies such as:
-        </p>
-      </div>
-
-      {/* Clubhouse Store Children */}
-      <div className="mt-10">
-        {/* id rings */}
-        <div className="flex flex-col lg:flex-row lg:justify-between items-center justify-center gap-10 mb-10">
-          <div className="lg:w-[35%] w-full flex justify-center lg:justify-start">
-            <Image
-              src={"/clubHouse/ClubHouse_Ring.svg"}
-              alt={"ClubHouse Mask"}
-              width={200}
-              height={200}
-              priority
-            />
-          </div>
-
-          <div className="lg:w-[65%] w-full">
-            <h5 className="italic text-passengerRed font-semibold text-center lg:text-left">
-              ID RINGS
-            </h5>
-            <p className="mt-5 text-passengerWhite font-normal text-center lg:text-left">
-              nightlife in the clubhouse is so much fun once you blend in.
-              Members have the ability to unlock the clubhouse store to gain
-              access to the Creme de la Creme, Clubhouse deluxe merchandise
-              includes apparel and other goodies such as:
-            </p>
-          </div>
+          <p className="mt-5 text-passengerWhite font-normal text-center lg:text-left text-[0.85rem]">
+            Nightlife in the clubhouse is so much fun once you blend in. Members
+            have the ability to unlock the clubhouse store to gain access to the
+            Creme de la Creme, Clubhouse deluxe merchandise includes apparel and
+            other goodies such as:
+          </p>
         </div>
 
-        {/* hidden mask */}
-        <div className="flex flex-col lg:flex-row  lg:justify-between items-center justify-center gap-10 mb-10">
-          <div className="lg:w-[35%] w-full flex justify-center lg:justify-start">
-            <Image
-              src={"/clubHouse/ClubHouse_Mask.svg"}
-              alt={"ClubHouse Mask"}
-              width={200}
-              height={200}
-              priority
-            />
+        {/* Clubhouse Store Children */}
+        <div>
+          {/* id rings */}
+          <div className="flex flex-col lg:flex-row lg:justify-between lg:items-start gap-10 mb-10">
+            <div className="flex lg:justify-start">
+              <Image
+                src={"/clubHouse/ClubHouse_Ring.svg"}
+                alt={"ClubHouse Mask"}
+                width={200}
+                height={200}
+                priority
+              />
+            </div>
+
+            <div className="">
+              <h5 className="italic text-passengerRed font-black text-center lg:text-left text=[1rem]">
+                ID RINGS
+              </h5>
+              <p className="mt-5 text-passengerWhite font-normal text-center lg:text-left text-[0.85rem]">
+                nightlife in the clubhouse is so much fun once you blend in.
+                Members have the ability to unlock the clubhouse store to gain
+                access to the Creme de la Creme, Clubhouse deluxe merchandise
+                includes apparel and other goodies such as:
+              </p>
+            </div>
           </div>
 
-          <div className="lg:w-[65%] w-full">
-            <h5 className="italic text-passengerRed font-semibold text-center lg:text-left">
-              HIDDEN MASK
-            </h5>
-            <p className="mt-5 text-passengerWhite font-normal text-center lg:text-left">
-              Useable for passengers' club parties, and definitely nothing we
-              wouldn't recommend
-            </p>
+          {/* hidden mask */}
+          <div className="flex flex-col lg:flex-row lg:justify-between lg:items-start gap-10 mb-10">
+            <div className="flex lg:justify-start">
+              <Image
+                src={"/clubHouse/ClubHouse_Mask.svg"}
+                alt={"ClubHouse Mask"}
+                width={75}
+                height={75}
+                priority
+              />
+            </div>
+
+            <div className="">
+              <h5 className="italic text-passengerRed font-black text-[1rem] text-center lg:text-left">
+                HIDDEN MASK
+              </h5>
+              <p className="mt-5 text-passengerWhite font-normal text-center lg:text-left text-[0.85rem]">
+                Useable for passengers' club parties, and definitely nothing we
+                wouldn't recommend
+              </p>
+            </div>
           </div>
         </div>
       </div>

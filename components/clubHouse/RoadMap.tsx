@@ -59,13 +59,13 @@ const ROADMAP = [
 
 export default function RoadMap() {
   return (
-    <section>
+    <section id="roadmap" className="lg:px-28">
       <div className="mt-20">
-        <h1 className="font-bold text-passengerRed lg:text-[2.5rem] text-[2rem] text-center lg:text-left">
+        <h1 className="font-black text-passengerRed lg:text-[2rem] text-[2rem] text-center lg:text-left italic">
           CLUB HOUSE ROAD MAP ACTIVATION
         </h1>
 
-        <p className="text-passengerWhite font-normal mt-1 text-center lg:text-left italic">
+        <p className="text-passengerWhite font-normal mt-1 text-center lg:text-left italic text-[0.85rem]">
           The light of transparency, at a certain sale percentage we will cross
           out the tasks as we achieve them together.
         </p>

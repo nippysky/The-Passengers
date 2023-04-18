@@ -55,11 +55,7 @@ const SLOTS = [
 
 export default function PrestigeSlots() {
   return (
-    <section className=" border-t border-passengerWhite py-10 relative mt-20">
-      <h1 className="font-bold text-passengerYellow lg:text-[2.5rem] text-[2rem] text-center lg:text-left">
-        PRESTIGE SLOTS
-      </h1>
-
+    <section className=" py-10 border-t border-passengerWhite">
       {/* Render Slots */}
       <div className="w-full grid xl:grid-cols-4 md:grid-cols-2 gap-20 my-14">
         {SLOTS.map((slot, index) => (
@@ -68,7 +64,6 @@ export default function PrestigeSlots() {
             className="flex flex-col items-center lg:items-start"
           >
             <Image
-              className="rounded-xl"
               src={slot.icon}
               alt={slot.chinese}
               width={300}
