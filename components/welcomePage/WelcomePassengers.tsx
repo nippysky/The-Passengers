@@ -3,8 +3,8 @@ import Image from "next/image";
 
 export default function WelcomePassengers() {
   return (
-    <section className="w-full flex flex-col lg:flex-row gap-20 justify-between items-center px-5 lg:px-40 py-5 relative mt-10">
-      <div className="lg:w-1/2 w- text-center lg:text-left">
+    <section className="w-full flex flex-col-reverse lg:flex-row gap-20 justify-between items-center px-5 lg:px-40 py-5 relative">
+      <div className="lg:w-1/2 ">
         <h1 className="font-black italic uppercase text-passengerWhite text-[1rem]">
           PASSENGERS
         </h1>
@@ -20,7 +20,7 @@ export default function WelcomePassengers() {
         </p>
       </div>
 
-      <div className="lg:w-1/2 w-full flex lg:justify-end justify-center">
+      <div className="lg:w-1/2 w-full flex lg:justify-end justify-center mt-10 lg:mt-0">
         <Image
           src={"/welcomePage/Passengers_Mask.svg"}
           alt={"Passenger Hoddie"}

@@ -9,18 +9,16 @@ import TheTeam from "../clubHouse/TheTeam";
 export default function WelcomeToThePassengersClub() {
   return (
     <>
-      <section className="border-t border-gray-500 flex flex-row justify-between items-start w-full">
+      <section className="border-t border-[#ffffff] px-5 lg:border-[#0A0909] flex flex-row justify-between items-start w-full">
         <div className="lg:mx-28 mt-10">
-          <h1 className="font-black italic text-passengerRed lg:text-[2rem] text-[1.85rem]">
-            WELCOME TO THE PASSENGERS CLUB
+          <h1 className="font-black italic text-passengerRed lg:text-[2rem] text-[1.5rem]">
+            WELCOME TO THE CLUB
           </h1>
           <p className="text-passengerWhite text-[0.85rem] mt-5">
-            knowing who you are behind a mask. With your purchases of membership
-            merchandise, you become a passenger with the ability to earn
-            valuable points, receive membership offers and discounts, granted
-            access to the clubhouse and all its goodies. Foster an appreciation
-            for art, aid your community development by joining the PITC project,
-            connect with other artists, collaborate, build, and transcend.
+            A network of Geniuses with the ability to impact society, connect
+            with other gifted, experience the journey of a ridden ecosystem from
+            its Adam, receive membership offerings, discounts, earn valuable
+            points, build, collaborate, and transcend.
           </p>
         </div>
       </section>
@@ -38,7 +36,7 @@ export default function WelcomeToThePassengersClub() {
 
       <WelcomeToClubHouse />
       <EnsuingBenefits />
-      <TheUnderground />
+
       <RoadMap />
       <TheTeam />
 

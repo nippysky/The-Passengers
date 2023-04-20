@@ -3,33 +3,9 @@ import React from "react";
 
 export default function JoinTheClub() {
   return (
-    <section className="w-full min-h-screen px-5 lg:px-40 py-5">
-      {/* Head Text */}
-      <div className="text-center lg:text-justify">
-        <p className="text-passengerWhite font-normal mt-5 text-[0.85rem]">
-          Everyone gets into a train heading to different destinations, but for
-          a brief moment on board, no matter how brief, they all share a common
-          name, "Passengers," and a journey experience.
-        </p>
-
-        <p className="text-passengerWhite font-normal mt-5 text-[0.85rem]">
-          The Passengers Club serves as a commute for members anywhere in the
-          world and as a gathering point for members interested in all
-          disciplines of the arts, with the aim of promoting and supporting an
-          enthusiasm for genius.
-        </p>
-
-        <p className="text-passengerWhite font-normal mt-5 text-[0.85rem]">
-          Genius is rare. Hop in and discover who you are behind a mask.
-        </p>
-      </div>
-
+    <section className="w-full min-h-screen px-5 lg:px-40 py-5 relative mt-10">
       {/* JOIN THE CLUB */}
-      <div className="mt-20">
-        <h1 className="font-black italic text-passengerRed lg:text-[2rem] text-[2rem] text-center lg:text-left">
-          JOIN THE CLUB
-        </h1>
-
+      <div>
         <div className="w-full flex flex-col lg:flex-row gap-20 mt-10 justify-between">
           <div className="lg:w-1/2 w-full flex lg:justify-start justify-center">
             <Image
@@ -38,10 +14,14 @@ export default function JoinTheClub() {
               width={400}
               height={500}
               priority
+              unoptimized
             />
           </div>
 
-          <div className="lg:w-1/2 w-full text-center lg:text-left">
+          <div className="lg:w-1/2 w-full">
+            <h1 className="font-black italic text-passengerRed lg:text-[2rem] text-[1.5rem] ">
+              JOIN THE CLUB
+            </h1>
             <p className="text-passengerWhite font-normal mt-5 text-[0.85rem]">
               The club offers one way to membership with two paths, reality path
               and island path. We understand that not everyone is interested in

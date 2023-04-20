@@ -1,12 +1,11 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { AiOutlineMenu } from "react-icons/ai";
+import { AiFillInstagram, AiOutlineMenu } from "react-icons/ai";
 import { IoClose } from "react-icons/io5";
 import { useRouter } from "next/router";
-import { FiInstagram } from "react-icons/fi";
 import { FaDiscord, FaTwitter } from "react-icons/fa";
-import { SiOpensea } from "react-icons/si";
+import { BsYoutube } from "react-icons/bs";
 
 const MENULINKS = [
   {
@@ -42,13 +41,13 @@ const MENULINKS = [
 
 const SOCIALICONS = [
   {
-    icon: <FiInstagram size={15} />,
-    link: "",
+    icon: <AiFillInstagram size={15} />,
+    link: "https://instagram.com/passengersclub?igshid=ZDg1NjBiNjg=",
   },
 
   {
     icon: <FaTwitter size={15} />,
-    link: "",
+    link: "https://twitter.com/passengersclub?s=11&t=GMSkr6o9VVKVN3fnTwZqgw",
   },
 
   {
@@ -57,8 +56,8 @@ const SOCIALICONS = [
   },
 
   {
-    icon: <SiOpensea size={15} />,
-    link: "",
+    icon: <BsYoutube size={15} />,
+    link: "https://www.youtube.com/channel/UCwOlVDRtAZEJ1nYsCdf0gdQ",
   },
 ];
 
@@ -67,9 +66,9 @@ export default function NavHeader() {
   const [mobile, setMobile] = useState(false);
 
   return (
-    <header className="w-full flex flex-row justify-between items-center">
+    <header className="w-full flex flex-row justify-between items-center ">
       {/* Logo */}
-      <div className="w-[70%] flex justify-start">
+      <div className="w-[80%] flex justify-start">
         <Link href={"/"}>
           <Image
             src={"/brand/Passengers_Logo.svg"}
@@ -77,6 +76,7 @@ export default function NavHeader() {
             width={250}
             height={50}
             priority
+            unoptimized
           />
         </Link>
 
@@ -98,10 +98,8 @@ export default function NavHeader() {
         </nav>
       </div>
 
-      {/* Menu Links */}
-
       {/* Social Icons */}
-      <div className="flex lg:justify-end justify-center items-center">
+      <div className="hidden  lg:flex lg:justify-end justify-center items-center">
         {SOCIALICONS.map((link, index) => (
           <Link key={index} href={link.link}>
             <div className="text-passengerWhite ml-10">{link.icon}</div>
@@ -119,7 +117,7 @@ export default function NavHeader() {
 
       {/* Mobile Menu Div */}
       {mobile && (
-        <section className="w-[50%] h-screen fixed top-0 right-0 bg-passengerDarkRed pt-5 px-5 z-50 duration-500">
+        <section className="w-full h-screen fixed top-0 right-0 bg-passengerBlack pt-5 px-5 z-50 duration-500">
           <div className="text-white flex justify-end ">
             <div className="cursor-pointer" onClick={() => setMobile(false)}>
               <IoClose size={30} />

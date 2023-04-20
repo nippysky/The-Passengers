@@ -4,12 +4,12 @@ import React from "react";
 const TEAM = [
   {
     name: "Temujin Khan",
-    desc: "“A perfect world  is an illusion, only those who have accepted limitations , simply comes to this conclusion. However, those that seek change or cry out for something different can never accept this reality!. for many things we see today, men thought them to be  impossible and just mere imaginations.”",
+    desc: "“impossible, only those who have accepted limitations, simply come to this conclusion. However, those that seek change or cry out for something different can never accept this reality! for many things we see today, men thought them to be impossible and just mere imaginations.”",
   },
 
   {
     name: "Charles Funas",
-    desc: "“I call out to You, You with the same vision as me.  Let us build this world, a “Transcended -Earth !“.Passengers utopia in a new digital world but First things first, there would be some rules to establish and passengers for the journey to building a transcended world from its Adam.”",
+    desc: "“I call out to You, You with the same vision as me. Let us build a home for genius, a Passengers utopia in a new digital world but First things first, there would be some rules to establish and passengers for the journey to build from Adam.”",
   },
 
   {
@@ -25,14 +25,14 @@ const TEAM = [
 
 export default function TheTeam() {
   return (
-    <section className="relative mt-20 lg:px-28">
+    <section className="relative mt-20 lg:px-28 px-5">
       {/* Title */}
       <div className=" lg:items-end items-center">
-        <h1 className="font-black text-passengerRed lg:text-[2rem] text-[2rem] text-center lg:text-right italic">
+        <h1 className="font-black text-passengerRed lg:text-[2rem] text-[1.5rem] italic">
           THE TEAM
         </h1>
 
-        <p className="text-passengerWhite font-normal mt-5 text-center lg:text-right italic text-[0.85rem]">
+        <p className="text-passengerWhite font-normal mt-5  italic text-[0.85rem]">
           Veras identitates nostras ostendemus cum Octavus vector evigilaverit
         </p>
       </div>
@@ -54,7 +54,7 @@ export default function TheTeam() {
                 {member.name}
               </h5>
 
-              <p className="text-passengerWhite font-normal text-center text-[0.75rem] mt-2">
+              <p className="text-passengerWhite font-normal  text-[0.75rem] mt-2">
                 {member.desc}
               </p>
             </div>

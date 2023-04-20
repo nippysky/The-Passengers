@@ -21,7 +21,7 @@ export default function Home() {
           backgroundImage: "url('/brand/Passengers_LandingGIF.gif')",
         }}
       >
-        <div className=" p-10 rounded-2xl bg-passengerRed lg:w-[40%] md:w-[60%] w-[85%]">
+        <div className=" p-10 bg-passengerRed lg:w-[40%] md:w-[60%] w-[85%]">
           <p className="text-passengerWhite font-semibold tracking-wider">
             It’s more than just Merch. It is a gateway to the lifestyle. Hop in
             and see where the train goes
@@ -29,7 +29,7 @@ export default function Home() {
 
           {/* Enter Button */}
           <Link href={"/welcome"}>
-            <div className="mt-10 bg-passengerDarkRed hover:bg-passengerWhite text-passengerWhite hover:text-passengerRed px-5 py-2 rounded-lg flex flex-row justify-between items-center">
+            <div className="mt-10 bg-passengerDarkRed hover:bg-passengerWhite text-passengerWhite hover:text-passengerRed px-5 py-2 flex flex-row justify-between items-center">
               <div>
                 <p className="tracking-[2rem] text-[1.2rem] font-semibold">
                   ENTER

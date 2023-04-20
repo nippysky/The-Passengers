@@ -1,0 +1,22 @@
+.imageContainer {
+  width: 60%;
+  height: 80%;
+}
+
+.imageContainer > div {
+  position: unset !important;
+}
+
+.image {
+  object-fit: contain;
+  width: 100% !important;
+  position: relative !important;
+  height: unset !important;
+}
+
+@media only screen and (max-width: 600px) {
+  /*Big smartphones [426px -> 600px]*/
+  .imageContainer {
+    width: 100%;
+  }
+}

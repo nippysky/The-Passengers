@@ -59,20 +59,20 @@ const ROADMAP = [
 
 export default function RoadMap() {
   return (
-    <section id="roadmap" className="lg:px-28">
-      <div className="mt-20">
-        <h1 className="font-black text-passengerRed lg:text-[2rem] text-[2rem] text-center lg:text-left italic">
+    <section id="roadmap" className="lg:px-28 px-5">
+      <div className="mt-1 lg:mt-20">
+        <h1 className="font-black text-passengerRed lg:text-[2rem] text-[1.5rem] italic">
           CLUB HOUSE ROAD MAP ACTIVATION
         </h1>
 
-        <p className="text-passengerWhite font-normal mt-1 text-center lg:text-left italic text-[0.85rem]">
+        <p className="text-passengerWhite font-normal mt-5 italic text-[0.85rem] lg:mt-1">
           The light of transparency, at a certain sale percentage we will cross
           out the tasks as we achieve them together.
         </p>
       </div>
 
       {/* Render Road map */}
-      <section className="w-full flex flex-col-reverse lg:flex-row justify-between items-end mt-14">
+      <section className="w-full flex flex-col lg:flex-row justify-between items-start mt-10">
         {/* map list */}
         <div className="lg:w-1/2 w-full">
           {ROADMAP.map((map, index) => (
@@ -80,13 +80,15 @@ export default function RoadMap() {
               <Image
                 src={map.icon}
                 alt={map.desc}
-                width={100}
-                height={100}
+                width={80}
+                height={80}
                 priority
               />
 
               <div>
-                <p className="text-passengerWhite leading-7">{map.desc}</p>
+                <p className="text-passengerWhite text-[0.85rem] leading-7">
+                  {map.desc}
+                </p>
               </div>
             </div>
           ))}
@@ -97,8 +99,8 @@ export default function RoadMap() {
           <Image
             src={"/clubHouse/ClubHousePassengers.svg"}
             alt={"ClubHouse Passengers"}
-            width={500}
-            height={500}
+            width={400}
+            height={300}
             priority
           />
         </div>

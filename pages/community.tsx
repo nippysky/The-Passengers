@@ -26,13 +26,10 @@ export default function Community() {
         </div>
 
         {/* Cover Image */}
-        <div className="w-full mt-5 lg:px-10 px-5 py-2">
-          <Image
-            src={"/brand/PassengersCommunity.svg"}
-            alt={"The island Cover"}
-            width={2500}
-            height={200}
-            priority
+        <div className="w-full">
+          <img
+            src={"/brand/PassengerCommunity.png"}
+            className="w-full h-screen"
           />
         </div>
 

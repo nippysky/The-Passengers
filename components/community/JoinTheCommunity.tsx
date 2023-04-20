@@ -35,11 +35,11 @@ const FOLLOWLINK = [
 
 export default function JoinTheCommunity() {
   return (
-    <section className="relative mt-10 bg-passengerCommunityBG lg:px-10 px-5 py-2">
-      <h1 className="font-bold text-passengerRed lg:text-[2.5rem] text-[2rem] text-center lg:text-left">
+    <section className="relative mt-10 bg-passengerCommunityBG lg:px-40 px-5 py-2">
+      <h1 className="font-black italic text-passengerRed lg:text-[2rem] text-[1.85rem] lg:text-left">
         JOIN THE COMMUNITY
       </h1>
-      <p className="text-passengerBlack font-medium mt-3 text-center lg:text-left">
+      <p className="text-passengerBlack font-medium mt-3 text-[0.85rem]">
         Passengers Club believe in its community and drives its growth. Join the
         conversation on Discord and Twitter to stay up to date on the latest
         community news.
@@ -49,7 +49,7 @@ export default function JoinTheCommunity() {
       <div className="w-full grid xl:grid-cols-4 md:grid-cols-2 gap-10 mt-14">
         {FOLLOWLINK.map((follow, index) => (
           <Link key={index} href={follow.link}>
-            <div className="p-5 bg-passengerBoxGray hover:bg-passengerDarkRed hover:text-passengerWhite rounded-xl">
+            <div className="p-5 bg-passengerBoxGray hover:bg-passengerDarkRed hover:text-passengerWhite">
               <div className="flex gap-5">
                 <div className="text-passengerRed hover:text-passengerYellow">
                   {follow.icon}
@@ -57,7 +57,7 @@ export default function JoinTheCommunity() {
                 <p className="font-semibold">{follow.title}</p>
               </div>
 
-              <p className="mt-5 text-[0.9rem] font-medium">{follow.desc}</p>
+              <p className="mt-5 text-[0.75rem] font-medium">{follow.desc}</p>
             </div>
           </Link>
         ))}

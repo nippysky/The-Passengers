@@ -32,8 +32,8 @@ export default function Prologue() {
           <Image
             src={"/island/IslandCage.svg"}
             alt={"Island Cage"}
-            width={450}
-            height={450}
+            width={300}
+            height={300}
             priority
           />
         </div>
