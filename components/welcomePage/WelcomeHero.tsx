@@ -40,7 +40,7 @@ export default function WelcomeHero() {
 
       <div className={styles.imageContainer}>
         <img
-          src="/clubHouse/ClubHouse_Underground.jpg"
+          src="/clubHouse/ClubHouse_UnderGround.jpg"
           alt="Club Underground"
           className={styles.image}
           loading="lazy"
