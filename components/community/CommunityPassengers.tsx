@@ -74,6 +74,7 @@ export default function CommunityPassengers() {
         <div className="lg:w-[40%] w-full flex flex-col items-center ">
           <img
             src="/community/CommunityCap.png"
+            alt="Community Cap"
             loading="lazy"
             className="w-[350px] h-[350px]"
           />

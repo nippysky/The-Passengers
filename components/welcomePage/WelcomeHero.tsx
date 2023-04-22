@@ -41,6 +41,7 @@ export default function WelcomeHero() {
       <div className={styles.imageContainer}>
         <img
           src="/clubHouse/ClubHouse_Underground.jpg"
+          alt="Club Underground"
           className={styles.image}
           loading="lazy"
         />
