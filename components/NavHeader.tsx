@@ -14,7 +14,7 @@ const MENULINKS = [
   },
 
   {
-    name: "Road Map",
+    name: "RoadMap",
     path: "/welcome/#roadmap",
   },
 
@@ -34,7 +34,7 @@ const MENULINKS = [
   },
 
   {
-    name: "Phase II",
+    name: "PhaseII",
     path: "/phase-II",
   },
 ];
@@ -71,7 +71,7 @@ export default function NavHeader() {
       <div className="w-[80%] flex justify-start">
         <Link href={"/"}>
           <Image
-            src={"/brand/Passengers_Logo.svg"}
+            src={"/brand/Passengers_Logo.png"}
             alt={"Passengers Logo"}
             width={250}
             height={50}
@@ -87,7 +87,7 @@ export default function NavHeader() {
               className={`${
                 asPath === link.path
                   ? "text-passengerRed"
-                  : "text-passengerWhite"
+                  : "text-passengerWhite hover:text-passengerRed"
               } mx-3 text-[0.55rem] uppercase italic font-medium tracking-wider`}
             >
               <Link scroll={false} href={link.path}>
@@ -102,7 +102,9 @@ export default function NavHeader() {
       <div className="hidden  lg:flex lg:justify-end justify-center items-center">
         {SOCIALICONS.map((link, index) => (
           <Link key={index} href={link.link}>
-            <div className="text-passengerWhite ml-10">{link.icon}</div>
+            <div className="text-passengerWhite hover:text-passengerRed ml-10">
+              {link.icon}
+            </div>
           </Link>
         ))}
       </div>

@@ -9,7 +9,7 @@ export default function JoinTheClub() {
         <div className="w-full flex flex-col lg:flex-row gap-20 mt-10 justify-between">
           <div className="lg:w-1/2 w-full flex lg:justify-start justify-center">
             <Image
-              src={"/welcomePage/Welcome_Boss.svg"}
+              src={"/welcomePage/PasssengerBoss.webp"}
               alt={"Passenger Bossman"}
               width={400}
               height={500}
@@ -38,22 +38,22 @@ export default function JoinTheClub() {
 
             <p className="text-passengerWhite font-normal mt-5 text-[0.85rem]">
               <span className="text-passengerRed font-normal text-[0.85rem]">
-                Reality path:
+                Reality Path:
               </span>{" "}
-              when you buy a limited membership hoodie, you become a member with
-              the ability to gain membership benefits but with some
+              When you buy a Limited Membership Leather Jacket, you become a
+              member with the ability to gain membership benefits but with some
               restrictions. Consider this a way to hop in with no interest in
               Web3 or the metaverse.
             </p>
 
             <p className="text-passengerWhite font-normal mt-5 text-[0.85rem]">
               <span className="text-passengerRed font-normal text-[0.85rem]">
-                Island path:
+                Island Path:
               </span>{" "}
-              When you buy a PSC limited passenger, you become a member with the
-              ability to gain membership benefits, full rights and ownership
-              over your passenger for commercial use, as well as the chance to
-              experience the island state in the future.
+              When you buy a PSC Limited Nft collection, you become a member
+              with the ability to gain membership benefits, full rights and
+              ownership over your passenger for commercial use, as well as the
+              chance to experience the island state in the future.
             </p>
           </div>
         </div>

@@ -10,9 +10,8 @@ export default function WelcomePassengers() {
         </h1>
 
         <p className="text-passengerWhite font-normal mt-5 text-[0.85rem]">
-          The passengers are 20,000 in total; 10,000 are redeemable through
-          membership-limited hoodie purchases. While the other 10,000 can be
-          minted for a fair price of 0.09 ETH.
+          The passengers’ alter selves are 10,000 in total. can be minted for a
+          fair price of 0.09 ETH. Once unlocked
         </p>
 
         <p className="font-bold italic text-passengerRed text-[1rem] mt-5">
@@ -20,13 +19,14 @@ export default function WelcomePassengers() {
         </p>
       </div>
 
-      <div className="lg:w-1/2 w-full flex lg:justify-end justify-center mt-10 lg:mt-0">
+      <div className="lg:w-1/2 w-full flex  justify-center mt-10 lg:mt-0">
         <Image
-          src={"/welcomePage/Passengers_Mask.svg"}
+          src={"/clubHouse/Clubhouse_Team.jpg"}
           alt={"Passenger Hoddie"}
           width={300}
           height={300}
           priority
+          unoptimized
         />
       </div>
     </section>

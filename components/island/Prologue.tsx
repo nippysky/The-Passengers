@@ -9,7 +9,7 @@ export default function Prologue() {
       </h1>
 
       <p className="text-passengerWhite font-normal mt-5 text-[0.85rem]">
-        whispers of a mysterious mansion on an island not far from time. It was
+        Whispers of a mysterious mansion on an island not far from time. It was
         said the mansion held many events. Rumours of games held in the mansion
         and tales of those returning from the games with a sort of obsession for
         crowns. It is said that the only way to find the mansion is by
@@ -28,7 +28,7 @@ export default function Prologue() {
 
       {/* Image | 30th January */}
       <div className="w-full flex flex-col lg:flex-row justify-between gap-10 mt-20">
-        <div className="lg:w-1/2 w-full">
+        <div className="lg:w-1/2 w-full flex flex-row justify-center lg:justify-start">
           <Image
             src={"/island/IslandCage.svg"}
             alt={"Island Cage"}

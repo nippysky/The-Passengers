@@ -9,7 +9,7 @@ export default function HallOfFame() {
   return (
     <>
       <Head>
-        <title>Hall Of Fame - The Passengers</title>
+        <title>PassengersClub | Hall Of Fame</title>
         <meta
           name="description"
           content="Experience the journey of a ridden ecosystem from its Adam. The train is what you make of it; however, the true journey begins when the eighth passenger awakes."
@@ -24,6 +24,8 @@ export default function HallOfFame() {
 
         <WelcomeHOF />
         <PrestigeSlots />
+
+        <div className="w-full h-[1px] bg-passengerWhite my-10 flex md:hidden" />
       </section>
       <Footer />
     </>

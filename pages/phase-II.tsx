@@ -8,7 +8,7 @@ export default function PhaseII() {
   return (
     <>
       <Head>
-        <title>Phase-II - The Passengers</title>
+        <title>Passengers | PhaseII</title>
         <meta
           name="description"
           content="Experience the journey of a ridden ecosystem from its Adam. The train is what you make of it; however, the true journey begins when the eighth passenger awakes."
@@ -23,21 +23,16 @@ export default function PhaseII() {
 
       {/* Island Map */}
       <div className="mt-5">
-        {/* <h5 className="text-passengerYellow font-semibold text-[1.1rem] tracking-wider text-center lg:text-left">
-          THE ISLAND MAP
-        </h5>
-        <p className="text-passengerWhite font-normal mt-5 text-center lg:text-left">
-          When the 8th passengers awakes the island map will guide the way.
-        </p> */}
-
         {/* Map Image */}
         <div className="w-full mb-3">
           <Image
-            src={"/island/IslandMap.svg"}
+            className="bg-cover"
+            src={"/island/IslandMap.jpeg"}
             alt={"The island Cover"}
             width={2500}
             height={200}
             priority
+            unoptimized
           />
         </div>
         {/* <p className="text-passengerWhite font-normal text-center lg:text-left">

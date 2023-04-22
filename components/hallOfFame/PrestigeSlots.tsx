@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import WithMask from "../../public/clubHouse/ClubHouse_Team.svg";
-import WithoutMask from "../../public/clubHouse/Passenger_Smile.svg";
+import WithMask from "../../public/clubhouse/ClubHouse_Team.jpg";
+import WithoutMask from "../../public/clubHouse/Passenger_Smile.jpg";
 
 const SLOTS = [
   {
@@ -71,12 +71,12 @@ export default function PrestigeSlots() {
               priority
             />
 
-            <div className="mt-5 text-center lg:text-left">
+            <div className="mt-5 text-center lg:text-left px-14 lg:px-0">
               <p className="text-passengerWhite text-[1.5rem] font-semibold">
                 P <span className="text-passengerRed">{slot.chinese}</span>
               </p>
 
-              <p className="text-passengerYellow mt-2">{slot.desc}</p>
+              <p className="text-passengerYellow ">{slot.desc}</p>
             </div>
           </div>
         ))}

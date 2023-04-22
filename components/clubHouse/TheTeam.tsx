@@ -42,11 +42,12 @@ export default function TheTeam() {
         {TEAM.map((member, index) => (
           <div key={index} className="flex flex-col items-center">
             <Image
-              src={"/clubHouse/ClubHouse_Team.svg"}
+              src={"/clubHouse/Clubhouse_Team.jpg"}
               alt={"Team Members"}
               width={300}
               height={300}
               priority
+              unoptimized
             />
 
             <div className="mt-5">

@@ -9,7 +9,7 @@ export default function StoryLine() {
   return (
     <>
       <Head>
-        <title>The island - The Passengers</title>
+        <title>PassengersClub | Prolougue</title>
         <meta
           name="description"
           content="Experience the journey of a ridden ecosystem from its Adam. The train is what you make of it; however, the true journey begins when the eighth passenger awakes."
@@ -25,11 +25,13 @@ export default function StoryLine() {
         {/* Cover Image */}
         <div className="w-full mt-5 mb-10">
           <Image
-            src={"/island/IslandCover.svg"}
+            className="bg-cover"
+            src={"/island/IslandCover.jpg"}
             alt={"The island Cover"}
             width={2500}
             height={200}
             priority
+            unoptimized
           />
         </div>
 

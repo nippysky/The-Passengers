@@ -3,8 +3,12 @@ import styles from "../../styles/Passenger.module.css";
 
 export default function WelcomeHero() {
   return (
-    <section className="flex flex-col lg:flex-row justify-between gap-10 items-center lg:px-20 px-5 pt-1 w-full bg-cover">
-      <div className="w-full lg:w-[40%] ">
+    <section className="flex flex-col lg:flex-row justify-between gap-10 lg:px-20 px-5 pt-1 w-full bg-cover">
+      <div className="w-full lg:w-[40%] flex flex-col justify-between ">
+        <h5 className="text-passengerWhite text-[0.85rem] mt-10">
+          Genius Is Rare
+        </h5>
+
         <div>
           <h1 className="font-black text-passengerRed lg:text-[2rem] text-[1.5rem] mt-10 lg:mt-0">
             WELCOME TO THE PASSENGERS CLUB
@@ -24,16 +28,21 @@ export default function WelcomeHero() {
               creating the largest decentralized network of geniuses known as
               the Passengers Club. where the goal is the Renaissance of genius
               in an ecosystem while fostering genius and impacting society
-              through Passengers in the Community (P.T.I.C.).
+              through Passengers in the Community (P.T.I.C.) and advancing
+              collectively while still enjoying membership benefits, flex,
+              privacy, and other goodies.
             </p>
           </div>
         </div>
+
+        {/* <div /> */}
       </div>
 
       <div className={styles.imageContainer}>
         <img
-          src="/clubHouse/ClubHouse_Underground.svg"
+          src="/clubHouse/ClubHouse_Underground.jpg"
           className={styles.image}
+          loading="lazy"
         />
 
         <div>

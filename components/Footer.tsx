@@ -46,7 +46,9 @@ export default function Footer() {
           <div className="flex lg:justify-end justify-center items-center">
             {SOCIALICONS.map((link, index) => (
               <Link key={index} href={link.link}>
-                <div className="text-passengerWhite ml-7">{link.icon}</div>
+                <div className="text-passengerWhite hover:text-passengerRed ml-7">
+                  {link.icon}
+                </div>
               </Link>
             ))}
           </div>

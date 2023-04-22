@@ -1,14 +1,14 @@
 import React from "react";
 import Image from "next/image";
-import Ten from "../../public/clubHouse/10.svg";
-import Twenty from "../../public/clubHouse/20.svg";
-import Thirty from "../../public/clubHouse/30.svg";
-import Fourty from "../../public/clubHouse/40.svg";
-import Fifty from "../../public/clubHouse/50.svg";
-import Sixty from "../../public/clubHouse/60.svg";
-import Eighty from "../../public/clubHouse/80.svg";
-import Ninety from "../../public/clubHouse/90.svg";
-import Hundred from "../../public/clubHouse/100.svg";
+import Ten from "../../public/clubHouse/10.png";
+import Twenty from "../../public/clubHouse/20.png";
+import Thirty from "../../public/clubHouse/30.png";
+import Fourty from "../../public/clubHouse/40.png";
+import Fifty from "../../public/clubHouse/50.png";
+import Sixty from "../../public/clubHouse/60.png";
+import Eighty from "../../public/clubHouse/80.png";
+import Ninety from "../../public/clubHouse/90.png";
+import Hundred from "../../public/clubHouse/100.png";
 
 const ROADMAP = [
   {
@@ -43,12 +43,12 @@ const ROADMAP = [
 
   {
     icon: Eighty,
-    desc: "The groundwork for the Passenger Club ecosystem begins with P.I.T.C",
+    desc: "The groundwork for the PassengersClub ecosystem begins with P.I.T.C",
   },
 
   {
     icon: Ninety,
-    desc: "First Passengers who make sense of John-Little Trismegistus dying message receive his lost treasure. It is estimated to be worth $10,000",
+    desc: "First Passenger who make sense of John-Little Trismegistus dying message receive his lost treasure. It is estimated to be worth $10,000",
   },
 
   {
@@ -74,7 +74,7 @@ export default function RoadMap() {
       {/* Render Road map */}
       <section className="w-full flex flex-col lg:flex-row justify-between items-start mt-10">
         {/* map list */}
-        <div className="lg:w-1/2 w-full">
+        <div className="lg:w-[60%] w-full">
           {ROADMAP.map((map, index) => (
             <div key={index} className="flex gap-10 items-center">
               <Image
@@ -95,13 +95,14 @@ export default function RoadMap() {
         </div>
 
         {/* map image */}
-        <div className="lg:w-1/2 w-full flex lg:justify-end justify-center">
+        <div className="lg:w-[40%] w-full flex lg:justify-end justify-center">
           <Image
-            src={"/clubHouse/ClubHousePassengers.svg"}
+            src={"/clubHouse/RoadMapSwag.png"}
             alt={"ClubHouse Passengers"}
             width={400}
             height={300}
             priority
+            unoptimized
           />
         </div>
       </section>

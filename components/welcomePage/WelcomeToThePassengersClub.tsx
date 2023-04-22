@@ -2,16 +2,16 @@ import React from "react";
 import Image from "next/image";
 import WelcomeToClubHouse from "../clubHouse/WelcomeToClubHouse";
 import EnsuingBenefits from "../clubHouse/EnsuingBenefits";
-import TheUnderground from "../clubHouse/TheUnderground";
 import RoadMap from "../clubHouse/RoadMap";
 import TheTeam from "../clubHouse/TheTeam";
 
 export default function WelcomeToThePassengersClub() {
   return (
     <>
-      <section className="border-t border-[#ffffff] px-5 lg:border-[#0A0909] flex flex-row justify-between items-start w-full">
-        <div className="lg:mx-28 mt-10">
-          <h1 className="font-black italic text-passengerRed lg:text-[2rem] text-[1.5rem]">
+      <section className=" px-5 lg:border-[#0A0909] flex flex-row justify-between items-start w-full">
+        <div className="lg:mx-24 mt-10">
+          <div className="w-full h-[1px] bg-passengerWhite " />
+          <h1 className="font-black italic text-passengerRed lg:text-[2rem] text-[1.5rem] mt-10">
             WELCOME TO THE CLUB
           </h1>
           <p className="text-passengerWhite text-[0.85rem] mt-5">

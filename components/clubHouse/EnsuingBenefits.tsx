@@ -52,12 +52,18 @@ export default function EnsuingBenefits() {
         ))}
       </div>
 
-      <div className="my-5 lg:my-20 w-full flex flex-col lg:flex-row justify-between gap-20">
+      <div className="">
         {/* Clubhouse Store */}
-        <div className="p-10 bg-passengerBox lg:p-0 lg:bg-black">
-          <h5 className="text-passengerRed font-black lg:text-[2rem] text-[1.5rem] tracking-wider  italic">
+        <div className="p-10 bg-passengerBox lg:p-0 lg:bg-black lg:px-10">
+          <h5 className="text-passengerRed font-black lg:text-[2rem] text-[1.5rem] tracking-wider  italic ">
             THE CLUBHOUSE STORE
           </h5>
+
+          {/* Note */}
+          <p className=" text-passengerRed font-normal  text-[0.75rem] mb-5">
+            Note: the clubhouse store merchandise is the only passengers’ merch
+            with passengers club packaging
+          </p>
 
           <p className="mt-5 text-passengerWhite font-normal  text-[0.85rem]">
             Nightlife in the clubhouse is so much fun once you blend in. Members
@@ -65,22 +71,17 @@ export default function EnsuingBenefits() {
             Creme de la Creme, Clubhouse deluxe merchandise includes apparel and
             other goodies such as:
           </p>
-
-          <p className="mt-5 text-passengerRed font-normal  text-[0.85rem]">
-            Note: the clubhouse store merchandise is the only passengers’ merch
-            with passengers club packaging
-          </p>
         </div>
 
-        {/* Clubhouse Store Children */}
-        <div className="px-10 lg:px-0 mt-[-2.3rem]">
+        {/* Clubstore Children */}
+        <div className="flex flex-col lg:flex-row w-full px-10 mt-5 lg:mt-20 lg:gap-20">
           {/* id rings */}
-          <div className="flex flex-row  gap-10 mb-10">
-            <div className="flex">
+          <div className="flex flex-row items-start gap-10 mb-10 lg:w-1/2 w-full">
+            <div className="lg:flex hidden">
               <img
                 src={"/clubHouse/ClubHouse_Ring.svg"}
                 alt={"ClubHouse Ring"}
-                className="w-[200px] h-[200px]"
+                className="w-[300px] "
               />
             </div>
 
@@ -99,8 +100,8 @@ export default function EnsuingBenefits() {
           </div>
 
           {/* hidden mask */}
-          <div className="flex flex-row lg:justify-between lg:items-start gap-10 mb-10 lg:mt-0 mt-[-2rem]">
-            <div className="flex lg:justify-end">
+          <div className="flex flex-row lg:justify-end lg:items-start gap-10 mb-10 lg:mt-0  lg:w-1/2 w-full">
+            <div className="hidden lg:flex">
               <img
                 src={"/clubHouse/ClubHouse_Mask.svg"}
                 alt={"ClubHouse Mask"}

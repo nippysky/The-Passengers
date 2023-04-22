@@ -12,7 +12,7 @@ export default function Welcome() {
   return (
     <>
       <Head>
-        <title>Passengers Club | Welcome Onboard</title>
+        <title>Passengers Club | Welcome</title>
         <meta
           name="description"
           content="Experience the journey of a ridden ecosystem from its Adam. The train is what you make of it; however, the true journey begins when the eighth passenger awakes."
@@ -21,7 +21,7 @@ export default function Welcome() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <header className="px-5 lg:px-20">
+      <header className="px-5 lg:px-10">
         <NavHeader />
       </header>
 
@@ -34,6 +34,9 @@ export default function Welcome() {
         <WelcomeToThePassengersClub />
       </section>
 
+      <div className="px-5">
+        <div className="w-full h-[1px] bg-passengerWhite my-10 flex md:hidden " />
+      </div>
       <Footer />
     </>
   );

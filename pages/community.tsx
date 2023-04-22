@@ -1,7 +1,6 @@
 import React from "react";
 import NavHeader from "@/components/NavHeader";
 import Head from "next/head";
-import Image from "next/image";
 import CommunityPassengers from "@/components/community/CommunityPassengers";
 import JoinTheCommunity from "@/components/community/JoinTheCommunity";
 import ReachForm from "@/components/community/ReachForm";
@@ -10,7 +9,7 @@ export default function Community() {
   return (
     <>
       <Head>
-        <title>Community - The Passengers</title>
+        <title>PassengersClub | Community</title>
         <meta
           name="description"
           content="Experience the journey of a ridden ecosystem from its Adam. The train is what you make of it; however, the true journey begins when the eighth passenger awakes."
@@ -28,8 +27,8 @@ export default function Community() {
         {/* Cover Image */}
         <div className="w-full">
           <img
-            src={"/brand/PassengerCommunity.png"}
-            className="w-full h-screen"
+            src={"/brand/PassengerCommunity.jpeg"}
+            className="w-full lg:h-screen h-[300px]"
           />
         </div>
 

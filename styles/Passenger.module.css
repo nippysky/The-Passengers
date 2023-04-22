@@ -18,5 +18,14 @@
   /*Big smartphones [426px -> 600px]*/
   .imageContainer {
     width: 100%;
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1020px) {
+  /*Tablets [601px -> 1200px]*/
+  .imageContainer {
+    width: 100%;
+    display: none;
   }
 }
