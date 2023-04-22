@@ -28,6 +28,7 @@ export default function Community() {
         <div className="w-full">
           <img
             src={"/brand/PassengerCommunity.jpeg"}
+            alt="Community Cover"
             className="w-full lg:h-screen h-[300px]"
           />
         </div>
