@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import WithMask from "../../public/clubhouse/Clubhouse_Team.jpg";
+import WithMask from "../../public/clubHouse/Clubhouse_Team.jpg";
 import WithoutMask from "../../public/clubHouse/Passenger_Smile.jpg";
 
 const SLOTS = [
