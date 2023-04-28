@@ -14,12 +14,12 @@ const TEAM = [
 
   {
     name: "NIPPY The Creator",
-    desc: "“When you focus too much on the outcome, you forget the steps taken to achieve it”",
+    desc: `“When you focus too much on the outcome, you forget the steps taken to achieve it. You stand at the precipice of greatness not even a mighty warrior can break a frail arrow when it is multiplied and supported by its fellows”`,
   },
 
   {
     name: "Hartdegen",
-    desc: "“Humans will only find logic in what they agree with “",
+    desc: `“Humans will only find logic in what they agree with. Limitation keeps a human from what they can know and from the arts he/she possesses; it becomes a curtain or barrier to what they can achieve. It is time to transcend“`,
   },
 ];
 

@@ -1,5 +1,5 @@
-import { CgScrollV } from "react-icons/cg";
 import { useState, useEffect } from "react";
+import { IoTriangleOutline } from "react-icons/io5";
 
 export default function ScrollUp() {
   const [backToTheTop, setBackToTheTop] = useState(false);
@@ -42,13 +42,13 @@ export default function ScrollUp() {
           <button
             style={{
               cursor: "pointer",
-              background: "#A10000",
+              background: "#000000",
               padding: "0.5rem",
               borderRadius: "4px",
               border: 0,
             }}
           >
-            <CgScrollV size={20} color="#ffffff" />
+            <IoTriangleOutline size={20} color="#ffffff" />
           </button>
         </div>
       )}

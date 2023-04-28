@@ -4,12 +4,12 @@ import React from "react";
 const BENEFITS = [
   {
     title: "RING PAYMENT",
-    desc: "Using this payment, members can get discounts on clubhouse hype sales and experience a nightlife in the train city. It's buzzing to see how we take this to the next level over the long haul.",
+    desc: `This payment offers the option of what we call "Points for Stakes". Members can swap their points when they accumulate to a certain level for stakes and gamble them for Passengers Bond to become PSC House OGs. We will reveal the importance of PSC House OGs in the future. Members can also get discounts on clubhouse hype sales and experience nightlife in the train city. It's buzzing to see how we take this to the next level over the long haul.`,
   },
 
   {
-    title: "VIP TREATMENT",
-    desc: "Early access for other PSC-ticketed events such as the Ridden Fest. Plus, members receive advance notice for events before admission goes on sale, exclusive to Double Membership.",
+    title: "GOLDEN PASS BADGE",
+    desc: `Possibility of obtaining a badge that grants you a point conversion for stakes that works more in your favor when you attain double membership status. Whereas a one path entry member may have a redemption rate of something like 10,000 points for stake, a "Double Membership" member may only need to redeem 8,000 points for stake. Double Membership simply means owning at least a membership merch and a PSC limited NFT.`,
   },
 
   {
@@ -48,6 +48,12 @@ export default function EnsuingBenefits() {
             <p className="mt-5 text-passengerWhite font-normal text-[0.85rem]">
               {benefit.desc}
             </p>
+
+            {index === 1 && (
+              <p className="text-passengerRed text-[0.85rem] font-normal">
+                Note: the Golden Pass Badge is limited 100 in total.
+              </p>
+            )}
           </div>
         ))}
       </div>
@@ -66,10 +72,11 @@ export default function EnsuingBenefits() {
           </p>
 
           <p className="mt-5 text-passengerWhite font-normal  text-[0.85rem]">
-            Nightlife in the clubhouse is so much fun once you blend in. Members
-            have the ability to unlock the clubhouse store to gain access to the
-            Creme de la Creme, Clubhouse deluxe merchandise includes apparel and
-            other goodies such as:
+            The ability to unlock Passengers Club membership-exclusive store:
+            nightlife in the PSC House is so much fun once you blend in, and
+            members have the ability to unlock this store and gain access to
+            purchase the Creme de la Creme. PSC House Deluxe merchandise such
+            as:
           </p>
         </div>
 

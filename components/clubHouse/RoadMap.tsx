@@ -66,8 +66,9 @@ export default function RoadMap() {
         </h1>
 
         <p className="text-passengerWhite font-normal mt-5 italic text-[0.85rem] lg:mt-1">
-          The light of transparency, at a certain sale percentage we will cross
-          out the tasks as we achieve them together.
+          In the spirit of transparency, at a certain percentage, we will cross
+          out the tasks as we achieve them together. We have some surprises that
+          are not listed here. As we advance, the will be revealed.
         </p>
       </div>
 

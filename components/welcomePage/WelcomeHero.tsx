@@ -3,7 +3,7 @@ import styles from "../../styles/Passenger.module.css";
 
 export default function WelcomeHero() {
   return (
-    <section className="flex flex-col lg:flex-row justify-between gap-10 lg:px-20 px-5 pt-1 w-full bg-cover">
+    <section className="flex flex-col lg:flex-row justify-between gap-10 lg:px-10 px-5 pt-1 w-full bg-cover">
       <div className="w-full lg:w-[40%] flex flex-col justify-between ">
         <h5 className="text-passengerWhite text-[0.85rem] mt-10">
           Genius Is Rare
@@ -16,10 +16,10 @@ export default function WelcomeHero() {
 
           <p className="text-passengerWhite  my-5 font-normal text-[0.85rem]">
             The train is what you make of it, however, the true journey begins
-            when the eighth passenger awakes. Everyone gets into a train heading
-            to different destinations, but for a brief moment on board, no
-            matter how brief, they all share a common name, "Passengers," and a
-            journey experience.
+            when the eighth passenger awakens. Everyone gets into a train
+            heading to different destinations, but for a brief moment on board,
+            no matter how brief, they all share a common name, "Passengers," and
+            a journey experience.
           </p>
 
           <div>

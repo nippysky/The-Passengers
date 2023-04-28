@@ -22,7 +22,7 @@ export default function WelcomeToClubHouse() {
       <p className="text-passengerWhite font-normal mt-5  text-[0.85rem]">
         Through the clubhouse roadmap activation, the clubhouse can play a part
         in the meta-verse (the island state)as a digital home for passengers
-        alter self. with many restricted rooms and halls at first, but members
+        alter self with many restricted rooms and halls at first, but members
         can unlock them overtime through membership point. Should the clubhouse
         mysteriously teleport to a familiar city, it will be for members to
         rendezvous and experience what a nightlife was like in the train city.
