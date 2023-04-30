@@ -449,6 +449,234 @@ export default function TermsAndConditions() {
           provide to us; or (c) we believe that your actions may cause financial
           loss or legal liability for you, our users or us.
         </p>
+
+        <h5 className="text-passengerWhite text-[1rem] font-medium my-5">
+          19. WEB SITE DISPUTES
+        </h5>
+
+        <p className=" text-[0.85rem] my-5">
+          “Web Site Disputes” include: (a) any claim you may have against
+          4ColoredRings Labs in connection with the Site, (b) any claim
+          4ColoredRings Labs may have against you in connection with the Site,
+          and (c) any action to enforce the Terms and Conditions or to object to
+          the Terms and Conditions.
+        </p>
+
+        <p className=" text-[0.85rem] my-5">
+          All other disputes are Non-Web Site Disputes. Any claim arising from
+          your purchase of an 4ColoredRings Labs product or service is a Non-Web
+          Site Dispute. Any claim arising from the content of any offer or
+          advertisement on the Site is a Non-Web Site Dispute.
+        </p>
+
+        <h5 className="text-passengerWhite text-[1rem] font-medium my-5">
+          20. WEB SITE DISPUTE RESOLUTION – ARBITRATION, JURY TRIAL WAIVER, AND
+          CLASS ACTION WAIVER
+        </h5>
+
+        <p className=" text-[0.85rem] my-5">
+          Neither you nor we will be able to sue in court in connection with a
+          Web Site Dispute. All Web Site Disputes must be resolved through
+          individual (non-class) arbitration. You indicate your acceptance of
+          these Terms and Conditions, including this agreement to arbitrate, by
+          continuing to use the Site after having the opportunity to review
+          these Terms and Conditions.
+        </p>
+
+        <p className=" text-[0.85rem] my-5">
+          You agree that you will not file a class action against 4ColoredRings
+          Labs and its affiliated companies, or participate in a class action
+          against 4ColoredRings Labs and its affiliated companies, in any Web
+          Site Dispute. You agree that you will not file or seek a class
+          arbitration or participate in a class arbitration against
+          4ColoredRings Labs and its affiliated companies, in any Web Site
+          Dispute.
+        </p>
+
+        <h5 className="text-passengerWhite text-[1rem] font-medium my-5">
+          21. DELUXE SALES
+        </h5>
+
+        <p className=" text-[0.85rem] my-5">
+          These Membership terms and conditions (“Membership Terms”) govern your
+          participation in 4ColoredRings Labs online Deluxe sales (“ Deluxe
+          Sale”). Please read them carefully before participating. By
+          participating in a Deluxe Sale, you agree to be bound by these
+          Membership Terms and the decisions of 4ColoredRings Labs. These
+          Membership Terms apply in addition to the other terms and conditions
+          that apply to your use of 4ColoredRings Labs made website (“Web Site”)
+          and 4ColoredRings Labs mobile application (the “App,” and together
+          with the Web Site, the “Platform”). If there is a conflict between the
+          general terms and conditions for the Platform and these Membership
+          Terms, then these Membership Terms will control.
+        </p>
+
+        <h5 className="text-passengerWhite text-[1rem] font-medium my-5">
+          22.1 INTRODUCTION
+        </h5>
+
+        <p className=" text-[0.85rem] my-5">
+          The Deluxe Sale is an opportunity for customers to purchase a limited
+          edition Passengers club product (“Membership Product”) through the
+          Platform or solely through the App.
+        </p>
+
+        <h5 className="text-passengerWhite text-[1rem] font-medium my-5">
+          22.2 ELIGIBILITY
+        </h5>
+
+        <p className=" text-[0.85rem] my-5">
+          The Deluxe sale is open only to legal of age
+        </p>
+
+        <h5 className="text-passengerWhite text-[1rem] font-medium my-5">
+          22.3 SALE PERIOD
+        </h5>
+
+        <p className=" text-[0.85rem] my-5">
+          The Membership & Deluxe Sale begins and ends on the period described
+          in the Platform (the “Sale Period”).
+        </p>
+
+        <h5 className="text-passengerWhite text-[1rem] font-medium my-5">
+          22.4 HOW TO PARTICIPATE
+        </h5>
+
+        <p className=" text-[0.85rem] my-5">
+          In order to participate through the App, you must have a mobile phone
+          that uses the iOS or Android operating system and has the ability to
+          receive text messages. You also must have location services and in-app
+          messaging enabled on your mobile phone. If you are under 18 or
+          otherwise under the legal age of majority in the jurisdiction in which
+          the entrant resides (a “Minor”), you must obtain your parent’s or
+          legal guardian’s permission to participate, and they must agree to
+          these Membership Terms prior to your participation. To participate,
+          create a Passengers club account. Once you have an account, during the
+          Sale Period, you must enter the requested information to complete your
+          participation
+        </p>
+
+        <h5 className="text-passengerWhite text-[1rem] font-medium my-5">
+          22.5 PARTICIPATION RULES
+        </h5>
+
+        <p className=" text-[0.85rem] my-5">
+          There may be a limit of one Membership Product per person during the
+          Sale Period. This will be communicated to you through the Platform.
+          All entries must be submitted and received before the conclusion of
+          the Sales Period. Normal time rates and data charges, if any, charged
+          by your internet or mobile service provider will apply. All entries
+          are subject to verification at any time. Proof of submission does not
+          constitute proof of entry.
+        </p>
+
+        <h5 className="text-passengerWhite text-[1rem] font-medium my-5">
+          22.6 SELECTION OF PURCHASERS
+        </h5>
+
+        <p className=" text-[0.85rem] my-5">
+          After the end of the Sales Period, participants will be selected at
+          random or on a first come first served basis, to purchase the
+          Membership Product (“Purchaser”). If participants are selected at
+          random, then some advantage is given to higher-tier Passengers Club
+          members. Being a Passengers Club member, even in the higher tiers,
+          does not guarantee that you will be selected to be a Purchaser. You
+          will be notified of the selection method through the Platform.
+        </p>
+
+        <h5 className="text-passengerWhite text-[1rem] font-medium my-5">
+          22.7 PRODUCT PURCHASE AND DELIVERY
+        </h5>
+
+        <p className=" text-[0.85rem] my-5">
+          Ensure to put the right address as we will not be held responsible if
+          you don't
+        </p>
+
+        <h5 className="text-passengerWhite text-[1rem] font-medium my-5">
+          22.8 PRODUCT AVAILABILITY
+        </h5>
+
+        <p className=" text-[0.85rem] my-5">
+          We are offering a limited number of Membership Products for purchase
+          through the Deluxe Sale. This offer is good while supplies last and
+          may be limited to one Membership Product per participant and account
+          during the Deluxe Sale.
+        </p>
+
+        <h5 className="text-passengerWhite text-[1rem] font-medium my-5">
+          22.9 GENERAL RULES
+        </h5>
+
+        <p className=" text-[0.85rem] my-5">
+          4ColoredRings Labs reserves the right to modify these Membership
+          Terms, and to cancel, modify, or suspend the Deluxe Sale at any time.
+          4ColoredRings Labs has the right, in its sole discretion, to
+          disqualify or prohibit from participating in the Deluxe Sale any
+          individual who 4ColoredRings Labs believes (i) has tampered with the
+          entry process or undermined the legitimate operation of the Deluxe
+          Sale in any manner; (ii) has engaged in conduct that annoys, abuses,
+          threatens, or harasses any other participant or any representative of
+          4ColoredRings Labs; or (iii) has attempted or intends to attempt any
+          of the foregoing. The use of agents or automated devices, programs, or
+          methods to submit entries is prohibited, and 4ColoredRings Labs has
+          the right, in its sole discretion, to disqualify any participant that
+          it believes may have been submitted an entry using such an agent or
+          automated device, program, or method.
+        </p>
+
+        <h5 className="text-passengerWhite text-[1rem] font-medium my-5">
+          22.10 TAXES
+        </h5>
+
+        <p className=" text-[0.85rem] my-5">
+          If we select participants at random, we may not always be able to
+          compute the exact amount of tax at the time you enter the Membership
+          Sale. In these situations, taxes that appear when you enter the
+          Membership or Deluxe Sale may be estimated. The actual taxes charged
+          to your payment method will be calculated based on the applicable
+          state and local tax rates if and when you are selected to purchase the
+          Deluxe ,Regular or Membership Product and will be reflected on the
+          receipt emailed to you at that time.
+        </p>
+
+        <h5 className="text-passengerWhite text-[1rem] font-medium my-5">
+          23. ENTIRE AGREEMENT
+        </h5>
+
+        <p className=" text-[0.85rem] my-5">
+          The Agreement constitutes the entire agreement between the user and
+          4ColoredRings Labs and supersedes any prior understandings or
+          agreements (written or oral). If you do not understand any of the
+          foregoing Terms please leave this site
+        </p>
+
+        <h5 className="text-passengerWhite text-[1rem] font-medium my-5">
+          24. YOU ACCEPT THE INHERENT SECURITY RISKS OF PROVIDING INFORMATION
+          AND DEALING ONLINE OVER THE INTERNET, AND AGREE THAT WE HAVE NO
+          LIABILITY OR RESPONSIBILITY FOR ANY BREACH OF SECURITY UNLESS IT IS
+          DUE TO OUR WILL FULL MISCONDUCT.
+        </h5>
+
+        <p className=" text-[0.85rem] my-5">
+          25. Other than the rights to the Art, nothing herein gives you any
+          rights to any other trademarks or other intellectual property rights
+          belonging to 4ColoredRings Labs including, without limitation, to
+          Passengers Club and the associated logos. All of these rights are
+          expressly reserved in the name of 4ColoredRings Labs.
+        </p>
+
+        <h5 className="text-passengerWhite text-[1rem] font-medium my-5">
+          26. CHILDREN
+        </h5>
+
+        <p className=" text-[0.85rem] my-5">
+          Our Site is not intended for children. You must be at least 18 years
+          old to access this Site or purchase a Merch. If you are under 18 years
+          old you are not permitted to use this Site for any reason. By
+          accessing the Site, you represent and warrant that you are at least 18
+          years of age.
+        </p>
       </div>
     </>
   );
