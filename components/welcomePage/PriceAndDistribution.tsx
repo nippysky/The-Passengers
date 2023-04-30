@@ -29,7 +29,7 @@ export default function PriceAndDistribution() {
             </h4>
             <p className="text-passengerWhite font-normal">
               The PSC membership jackets are limited. All membership jackets are
-              assigned free shipping. Cost only $600. Once it's sold out, it’s
+              assigned free shipping. Cost only $250. Once it's sold out, it’s
               sold out.
             </p>
 
