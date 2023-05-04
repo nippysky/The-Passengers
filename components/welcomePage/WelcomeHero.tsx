@@ -28,8 +28,8 @@ export default function WelcomeHero() {
               geniuses known as the Passengers Club. where the goal is the
               Renaissance of genius in an ecosystem while fostering genius and
               impacting society through Passengers in the Community (P.T.I.C.)
-              and advancing collectively while still enjoying membership
-              benefits, flex, privacy, and other goodies.
+              while still enjoying membership benefits, flex, privacy, and other
+              goodies.
             </p>
           </div>
         </div>

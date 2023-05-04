@@ -41,9 +41,8 @@ export default function JoinTheClub() {
                 Reality Path:
               </span>{" "}
               When you buy a Limited Membership Leather Jacket, you become a
-              member with the ability to gain membership benefits but with some
-              restrictions. Consider this a way to hop in with no interest in
-              Web3 or the metaverse.
+              member with the ability to gain membership benefits. Consider this
+              a way to hop in with no interest in Web3 or the metaverse.
             </p>
 
             <p className="text-passengerWhite font-normal mt-5 text-[0.85rem]">
@@ -52,8 +51,7 @@ export default function JoinTheClub() {
               </span>{" "}
               When you buy a PSC Limited Nft collection, you become a member
               with the ability to gain membership benefits, full rights and
-              ownership over your passenger for commercial use, as well as the
-              chance to experience the island state in the future.
+              ownership over your passenger for commercial use.
             </p>
           </div>
         </div>
