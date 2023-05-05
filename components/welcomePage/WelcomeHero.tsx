@@ -27,7 +27,7 @@ export default function WelcomeHero() {
               Hop on a journey to creating the largest decentralized network of
               geniuses known as the Passengers Club. where the goal is the
               Renaissance of genius in an ecosystem while fostering genius and
-              impacting society through Passengers in the Community (P.T.I.C.)
+              impacting society through Passengers in the Community (P.I.T.C.)
               while still enjoying membership benefits, flex, privacy, and other
               goodies.
             </p>

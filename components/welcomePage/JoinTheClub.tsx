@@ -27,8 +27,7 @@ export default function JoinTheClub() {
               and island path. We understand that not everyone is interested in
               the meta- verse or a digital world but still want to be part of an
               ecosystem or community. Lifestyle is a fundamental aspect of the
-              modern world. Here, the objective is to advance members
-              collectively.
+              modern world.
             </p>
 
             <p className="text-passengerRed italic font-normal mt-5 text-[0.85rem]">
