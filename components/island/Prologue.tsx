@@ -23,7 +23,7 @@ export default function Prologue() {
         received this invitation. I know what you are thinking that this is a
         madeup story, which means you believe the invitations to be pranks. So I
         ask you this: Is what you believe always true? , if it was, then facts
-        wouldn't be.
+        wouldn't be. Very few have traveled beyond and through time.
       </p>
 
       {/* Image | 30th January */}
@@ -48,7 +48,7 @@ export default function Prologue() {
             the invitation we received. Not that it matters now, of course. The
             only thing that matters is a way back home, and we may have found it
             when Amy stumbled upon the Trismegistus journal.
-            <span className="text-passengerRed"> {`<:DAMIAN POWER`}</span>
+            <span className="text-passengerRed"> {`:DAMIAN POWER`}</span>
           </p>
 
           <p className="text-passengerWhite font-normal mt-5 text-[0.85rem]">
@@ -56,7 +56,7 @@ export default function Prologue() {
             symbols inscribed on the time machine, one is able to set the travel
             coordinates and say the words of time: "Night, Eco, Alpha, and
             Litch, guide me to the path I have chosen, past or future."
-            <span className="text-passengerRed">{`: AMY`}</span>
+            <span className="text-passengerRed">{`:AMY LIGHTHOUSE`}</span>
           </p>
 
           <p className="text-passengerWhite font-normal mt-5 text-[0.85rem]">

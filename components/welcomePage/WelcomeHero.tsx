@@ -51,9 +51,8 @@ export default function WelcomeHero() {
           </h5>
 
           <p className="mt-2 text-passengerWhite font-normal  text-[0.85rem]">
-            Granted access to the clubhouse basement, home to cash whales. The
-            word on the street is "Whatever goes on in the underground stays
-            underground".
+            The clubhouse basement, home to cash whales. The word on the street
+            is "Whatever goes on in the underground stays underground".
           </p>
         </div>
       </div>

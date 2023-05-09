@@ -24,10 +24,8 @@ export default function JoinTheClub() {
             </h1>
             <p className="text-passengerWhite font-normal mt-5 text-[0.85rem]">
               The club offers one way to membership with two paths, reality path
-              and island path. We understand that not everyone is interested in
-              the meta- verse or a digital world but still want to be part of an
-              ecosystem or community. Lifestyle is a fundamental aspect of the
-              modern world.
+              and island path. Lifestyle is a fundamental aspect of the modern
+              world.
             </p>
 
             <p className="text-passengerRed italic font-normal mt-5 text-[0.85rem]">
@@ -48,9 +46,9 @@ export default function JoinTheClub() {
               <span className="text-passengerRed font-normal text-[0.85rem]">
                 Island Path:
               </span>{" "}
-              When you buy a PSC Limited Nft collection, you become a member
-              with the ability to gain membership benefits, full rights and
-              ownership over your passenger for commercial use.
+              When you buy at least one Nft from the PSC Limited Nft collection,
+              you become a member with the ability to gain membership benefits.
+              Consider this a way to hop in with interest in the blockchain.
             </p>
           </div>
         </div>
