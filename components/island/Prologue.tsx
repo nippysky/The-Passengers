@@ -60,12 +60,12 @@ export default function Prologue() {
           </p>
 
           <p className="text-passengerWhite font-normal mt-5 text-[0.85rem]">
-            The Mansion is the heart of the island, Once every nine years, the
-            mansion teleports to the center of the island and becomes visible
-            for a while.  We now know when and where, the words of Time. All
-            that remains is for the mansion to appear, and we can finally return
-            home. But I can’t seem to shake the feeling that we are not alone on
-            this island.
+            According to the Trismegistus journal : The Mansion is the heart of
+            the island, Once every nine years, the mansion teleports to the
+            center of the island and becomes visible for a while. We now know
+            when and where, the words of Time. All that remains is for the
+            mansion to appear, and we can finally return home. But I can’t seem
+            to shake the feeling that we are not alone on this island.
             <span className="text-passengerRed"> To be continued...</span>
           </p>
         </div>

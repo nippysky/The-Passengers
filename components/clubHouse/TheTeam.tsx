@@ -3,13 +3,13 @@ import React from "react";
 
 const TEAM = [
   {
-    name: "Temujin Khan",
-    desc: "“impossible, only those who have accepted limitations, simply come to this conclusion. However, those that seek change or cry out for something different can never accept this reality! for many things we see today, men thought them to be impossible and just mere imaginations.”",
+    name: "Niten Musashi",
+    desc: "“Perceive that which cannot be seen with the eye. Only those who have accepted limitations, simply come to the conclusion of it is impossible. However, those that do not , transcend. For many things we see today, where thought of as impossible and just mere imaginations.”",
   },
 
   {
     name: "Charles Funas",
-    desc: "“I call out to You, You with the same vision as me. Let us build a home for genius, a Passengers utopia in a new digital world but First things first, there would be some rules to establish and passengers for the journey to build from Adam.”",
+    desc: "“Not everyone has the ambition to act on what they envision, so I call out to You, You with the same vision as me and the will to act. Hop in with us and become a passenger on this journey to assemble the largest network of geniuses”",
   },
 
   {
